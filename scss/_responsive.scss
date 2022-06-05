@@ -10,11 +10,18 @@
         align-items: center;
         padding: 10px 0px;
     }
+
     nav ul li {
-                font-size: 1.8rem;
+        font-size: 1.8rem;
     }
+
     .diegos {
         display: flex;
         flex-direction: column;
-}
+    }
+
+    .imgBio {
+        width: 300px;
+        height: 200px;
+    }
 }

@@ -14,7 +14,8 @@ main {
 /*Colores, fuentes*/
 /*css nav*/
 .logo {
-  width: 100px; }
+  width: 100px;
+  height: 100px; }
 
 .navbar-collapse {
   margin-right: 250px; }
@@ -203,4 +204,7 @@ form {
     font-size: 1.8rem; }
   .diegos {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .imgBio {
+    width: 300px;
+    height: 200px; } }
