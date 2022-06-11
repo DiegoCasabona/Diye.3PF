@@ -55,6 +55,9 @@ footer div h4 {
     padding: 5px;
     display: flex;
     justify-content: center;
+    & a{
+        color:white;
+    }
 }
 
 /*cierre footer*/
@@ -79,19 +82,10 @@ p {
 
 /*cierre home*/
 /*css biografia*/
-.diegos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imgBio {
-    margin: 5px;
+.img-fluid {
     border: 3px solid #000;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
-    width: 500px;
-    height: 400px;
-}
+    }
 
 /*cierre biografia*/
 /*grid galeria*/
@@ -119,7 +113,7 @@ h1 {
     margin: 5px;
     border: 3px solid #000;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
-    max-width: 23vw;
+    max-width: 80%;
     transition: all 300ms;
     filter: grayscale(100%);
     position: relative;
@@ -135,6 +129,7 @@ h1 {
 /*cierre galeria*/
 /*css proyectos*/
 .card {
+    margin: 15px;
     padding: 10px;
     background-color: aliceblue;
 }
